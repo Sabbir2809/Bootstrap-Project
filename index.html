@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Favicon link -->
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+  <!-- Font-Awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Style CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-md">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars navbar-icon"></i></span>
+        </button>
+
+        <a class="navbar-brand" href="#">
+          <img src="img/android-icon-48x48.png" alt="logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-center text-md-lelf" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center text-md-lelf" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center text-md-lelf" href="#">Tutorial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center text-md-lelf" href="#">Feedback</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center text-md-lelf" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="banner">
+        <div class="banner-container d-flex justify-content-center align-items-center">
+          <div class="banner-contents text-center">
+            <h1 class="font-wight-bolder text-white mb-5">Learn Something New !</h1>
+            <button class="btn btn-lg btn-primary mr-3"><i class="fas fa-play mr-2" onclick="location.href='#tutorial'"></i>Tutorials</button>
+            <button class="btn btn-lg btn-primary mr-3" onclick="window.open('https://youtube.com/')" class="request-callback"><i class="fab fa-youtube mr-2"></i>Subscribe</button>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!--Features Starts-->
+      <section id="features" class="text-center">
+        <div class="row">
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+              <h5 class="font-weight-bold">Free to use</h5>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga temporibus beatae, quaerat vero qui voluptas.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+              <h5 class="font-weight-bold">Free to use</h5>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga temporibus beatae, quaerat vero qui voluptas.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 d-block d-lg-flex">
+            <div class="features-col">
+              <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+              <h5 class="font-weight-bold">Free to use</h5>
+              <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Features Ends -->
+
+    <!-- About Me Stats -->
+    <section id="about-me">
+      <div class="section-title">
+        <h3 class="text-center">About Me</h3>
+        <hr class="hr-style" style="border-color:black">
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="basic-desc text-center text-lg-left">
+            <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+            <h5 class="font-weight-bolder">Personal info</h5>
+            <p>Name : Md.Sabbir Hossain</p>
+            <p>ID : 192-15-2809</p>
+            <p>Email : sabbir15-2809@diu.edu.bd</p>
+            <p>Current Address : Singair, Manikganj</p>
+            <button class="btn btn-primary">Download CV</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="skill-desc text-center text-lg-left">
+            <i class="fas rounded-circle fa-briefcase fa-2x"></i>
+            <h5 class="font-weight-bolder">Skills</h5>
+
+            <table>
+              <tr>
+                <td>HTML</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+                <td>CSS</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+                <td>Bootstrap</td>
+                <td>
+                  <span class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me Ends -->
+    <footer>
+
+    </footer>
+  </div>
+
+  <!-- Bootstrap JavaScript link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+</html>
